@@ -1,4 +1,4 @@
-FROM debian:bullseye
+FROM debian:bookworm
 
 ARG FPM_VERSION=1.14.0
 
@@ -8,7 +8,7 @@ RUN apt-get update && \
       build-essential \
       cpio \
       git \
-      python-setuptools \
+      python3-setuptools \
       rpm \
       ruby \
       ruby-dev \

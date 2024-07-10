@@ -1,4 +1,4 @@
-IMAGE_NAME=adfinissygroup/effing-package-manager
+IMAGE_NAME=adfinis/effing-package-manager
 IMAGE_VERSION=v001
 
 image:
