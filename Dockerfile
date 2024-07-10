@@ -9,7 +9,6 @@ RUN apt-get update && \
       cpio \
       git \
       python3 \
-      python-is-python3 \
       python3-setuptools \
       python3-pip \
       rpm \
