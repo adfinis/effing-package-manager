@@ -1,6 +1,6 @@
 FROM debian:bookworm
 
-ARG FPM_VERSION=1.14.0
+ARG FPM_VERSION=1.15.1
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
