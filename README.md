@@ -6,7 +6,7 @@ GitLab CI optimized Docker image for FPM
 
 This image is on GHCR.io, you can pull it like this:
 ```
-# docker pull ghcr.io/adfinis-sygroup/effing-package-manager:latest
+# docker pull ghcr.io/adfinis/effing-package-manager:latest
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ This image is optimized to be used by the GitLab runners, but you can
 use it standalone as well:
 
 ```
-# docker run -it ghcr.io/adfinis-sygroup/effing-package-manager:latest bash
+# docker run -it ghcr.io/adfinis/effing-package-manager:latest bash
 # fpm --help
 ```
 
