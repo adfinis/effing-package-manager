@@ -8,7 +8,10 @@ RUN apt-get update && \
       build-essential \
       cpio \
       git \
+      python3 \
+      python-is-python3 \
       python3-setuptools \
+      python3-pip \
       rpm \
       ruby \
       ruby-dev \
