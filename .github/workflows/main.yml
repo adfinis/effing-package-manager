@@ -3,9 +3,9 @@ name: Release Container Image
 on:
   pull_request:
   push:
-    branches: master
+    branches: main
     tags:
-      - 'v*.*.*'
+      - "v*.*.*"
 
 jobs:
   container:
